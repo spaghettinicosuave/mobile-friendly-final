@@ -96,7 +96,8 @@
 }
 
 .picture-four {
-  background-image: url(../media/me.jpg);
+  /*background-image: url(../media/me.jpg);*/
+  overflow: scroll;
   background-size: cover;
   background-position: center;
   height: 30em;
