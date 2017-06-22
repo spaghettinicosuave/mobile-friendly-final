@@ -80,7 +80,8 @@
 }
 
 .picture-two {
-  background-image: url(../media/mountaindew.jpg);
+  /*background-image: url(../media/mountaindew.jpg);*/
+  overflow: scroll;
   background-size: cover;
   background-position: center;
   height: 30em;
@@ -88,7 +89,8 @@
 }
 
 .picture-three {
-  background-image: url(../media/guitar.jpg);
+  /*background-image: url(../media/guitar.jpg);*/
+  overflow: scroll;
   background-size: cover;
   background-position: center;
   height: 30em;
