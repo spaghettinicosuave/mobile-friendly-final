@@ -70,8 +70,9 @@
   background-color: #fff;
 }
 
-.picture-one {
-  background-image: url(../media/lake.jpg);
+.picture-one iframe {
+  /*background-image: url(../media/first-website.jpg);*/
+  overflow: scroll;
   background-size: cover;
   background-position: center;
   height: 30em;
