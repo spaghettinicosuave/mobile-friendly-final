@@ -1,4 +1,56 @@
+/*GLOBALS*/
+@import url('https://fonts.googleapis.com/css?family=Flamenco:300,400');
+
+.title-text {
+  font-family: 'Flamenco', cursive;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+
 /*Header section*/
 #navbar {
-  position: absolute;
+
+}
+
+/*START FLYING BOX CLASS*/
+.box-title {
+  height: 1px;
+  width: 1px;
+  -webkit-animation: flying-box-one 2s; /* Safari 4+ */
+  position: relative;
+  animation-fill-mode: forwards
+}
+/*END FLYING BOX CLASS*/
+
+/*FLYING BOX KEYFRAMES*/
+@keyframes flying-box-one {
+    0% {transform-origin: right; opacity:0; transform:translateX(-100%)}
+    100% {background-color:rgb(128,128,128); opacity:0.1;}
+    100% {width:100%; height:100px; transform:translateX(0%); opacity:1;}
+}
+/*END FLYING BOX KEYFRAMES*/
+
+/*ROWS AND COLUMNS*/
+.box-content {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+}
+
+.picture-one {
+  margin-top: 10px;
+  background-image: url(../media/lake.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.picture-two {
+  margin-top: 10px;
+  background-image: url(../media/mountaindew.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
 }
