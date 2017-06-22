@@ -1,0 +1,73 @@
+/*GLOBALS*/
+@import url('https://fonts.googleapis.com/css?family=Flamenco:300,400');
+
+.title-text {
+  font-family: 'Flamenco', cursive;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-top: 0.1em;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.desc-text {
+  font-family: 'Flamenco', cursive;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 10em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+
+/*Header section*/
+#navbar {
+
+}
+
+/*START FLYING BOX CLASS*/
+.box-title-left {
+  height: 1px;
+  width: 1px;
+  -webkit-animation: flying-box-left 2s; /* Safari 4+ */
+  position: relative;
+  animation-fill-mode: forwards;
+  margin-bottom: 1em;
+  border-radius: 2em;
+
+}
+
+/*END FLYING BOX CLASS*/
+
+/*FLYING BOX KEYFRAMES*/
+@-webkit-keyframes flying-box-left {
+    0% {transform-origin: right; opacity:0; transform:translateX(-100%)}
+    100% {background-color:rgb(128,128,128); opacity:0.1;}
+    100% {width:100%; height:5em; transform:translateX(0%); opacity:1; position: relative; margin-bottom:15em;}
+}
+
+/*END FLYING BOX KEYFRAMES*/
+
+/*CONTACT*/
+
+#wuf-adv  {
+  visibility: hidden;
+}
+
+/*FOOTER*/
+
+footer {
+    height: 2em;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 2em;
+    clear: both;
+    margin-top: 10em;
+    padding-bottom: 0.1em;
+    padding-top: 0.5em;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow:hidden;
+}
