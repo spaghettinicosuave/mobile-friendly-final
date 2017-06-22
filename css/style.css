@@ -65,7 +65,7 @@
 
 /*ROWS AND COLUMNS CONTENT*/
 .box-content {
-  height: 40em;
+  height: 30em;
   position: relative;
   background-color: #fff;
 }
@@ -74,7 +74,7 @@
   background-image: url(../media/lake.jpg);
   background-size: cover;
   background-position: center;
-  height: 40em;
+  height: 30em;
   border-radius: 4em;
 }
 
@@ -82,7 +82,7 @@
   background-image: url(../media/mountaindew.jpg);
   background-size: cover;
   background-position: center;
-  height: 40em;
+  height: 30em;
   border-radius: 4em;
 }
 
@@ -90,14 +90,14 @@
   background-image: url(../media/guitar.jpg);
   background-size: cover;
   background-position: center;
-  height: 40em;
+  height: 30em;
   border-radius: 4em;
 }
 
-/*.container-fluid {
-    border-width: 0.1em;
-    border-color: #000;
-    /*border-bottom-color: #fff;
-    /*border-top-color: #fff;
-    border-style: solid;
-} */
+.picture-four {
+  background-image: url(../media/me.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 30em;
+  border-radius: 4em;
+}
